@@ -10,7 +10,7 @@ namespace GameStore.Concrete
     {
         public void Add(Gamer gamer, Game game, Campaign campaign)
         {
-            Console.WriteLine("'{0}' oyunu '{1}' a '{2}' kampanyası ile {3} '$' karşılığında  satıldı", game.GameName, gamer.FirstName, campaign.CampaignName, game.GamePrice);
+            Console.WriteLine("'A' oyunu 'B' a 'C' kampanyası ile D '$' karşılığında  satıldı", game.GameName, gamer.FirstName, campaign.CampaignName, game.GamePrice);
         }
         public void Update(Gamer gamer, Game game, Campaign campaign)
         {
