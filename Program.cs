@@ -23,7 +23,7 @@ namespace GameStore
             Campaign campaign = new Campaign
             {
                 CampaignName = "Sales Discount";
-                CampaignDiscount = 0.50
+                CampaignDiscount = 0.50;
             };
             GamerManager gamerManager = new GamerManager();
             gamerManager.Add(gamer);
