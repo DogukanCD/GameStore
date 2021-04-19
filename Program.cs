@@ -10,19 +10,19 @@ namespace GameStore
         {
             Gamer gamer = new Gamer
             {
-                IdentityNumber = 11111111111,
-                FirstName = "Gökhan",
-                LastName = "Karakuş",
-                BirthYear = 1111
+                IdentityNumber = 123456;
+                FirstName = "Doğukan";
+                LastName = "Orhan";
+                BirthYear = 1996;
             };
             Game game = new Game
             {
-                GameName = "Snake",
-                GamePrice = 99
+                GameName = "Snake";
+                GamePrice = 10;
             };
             Campaign campaign = new Campaign
             {
-                CampaignName = "Sales Discount",
+                CampaignName = "Sales Discount";
                 CampaignDiscount = 0.50
             };
             GamerManager gamerManager = new GamerManager();
